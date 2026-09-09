@@ -172,11 +172,7 @@ nav a:hover{color:var(--mist);}
 .hero-card .arrow{color:var(--label); font-family:var(--font-main); font-size:0.85rem;}
 
 /* ============================================================
-   5. ACCOMMODATIONS (izby) — kompaktné prehľadové karty
-   ------------------------------------------------------------
-   Karty sú teraz horizontálne (fotka vľavo, text vpravo) namiesto
-   vysokých vertikálnych blokov — výrazne kratšie, hlavne na mobile,
-   kde predtým každá karta zaberala takmer celú obrazovku.
+   5. ACCOMMODATIONS 
    ============================================================ */
 #accommodations{background:var(--ink-deep);}
 .rooms-grid{display:flex; flex-direction:column; gap:0.9rem;}
@@ -207,8 +203,7 @@ nav a:hover{color:var(--mist);}
 .room-price{color:var(--gold); font-weight:600;}
 
 /* ============================================================
-   5b. ROOM EXPLORER — veľké klikateľné bannery (rovnaký princíp
-   ako hero pozadie) + rozbaľujúci sa detail s galériou a textom.
+   5b. ROOM EXPLORER 
    ============================================================ */
 #room-explorer{background:var(--ink);}
 .room-banner-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:1.1rem;}
